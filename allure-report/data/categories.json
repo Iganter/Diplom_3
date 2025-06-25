@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 701 == (701 + 1)",
+      "children" : [ {
+        "name" : "test_orders_counters_and_in_progress[chrome]",
+        "uid" : "8b089a55777f8543",
+        "parentUid" : "6150355298214d919334a04b5eab54f3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1750880434826,
+          "stop" : 1750880441668,
+          "duration" : 6842
+        },
+        "flaky" : false,
+        "parameters" : [ "'chrome'" ]
+      } ],
+      "uid" : "6150355298214d919334a04b5eab54f3"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
