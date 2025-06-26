@@ -4,11 +4,11 @@ from selenium.webdriver.common.by import By
 class OrdersFeedPageLocators:
     COUNTER_ALL_TIME = (
         By.XPATH,
-        "//div[p[text()='Выполнено за все время:']]/p[2]"
+        "//p[text()='Выполнено за все время:']/following-sibling::p"
     )
     COUNTER_TODAY = (
         By.XPATH,
-        "//div[p[text()='Выполнено за сегодня:']]/p[2]"
+        "//p[text()='Выполнено за сегодня:']/following-sibling::p"
     )
     IN_PROGRESS_LIST = (
         By.XPATH,

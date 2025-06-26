@@ -3,7 +3,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from pages.base_page import BasePage
 from locators.login_page_locators import LoginPageLocators
 from locators.home_page_locators import HomePageLocators
-from data import Data
+from data import Urls
 
 
 class LoginPage(BasePage):
@@ -18,4 +18,4 @@ class LoginPage(BasePage):
         self.find(self.loc.EMAIL_INPUT).send_keys(email)
         self.find(self.loc.PASSWORD_INPUT).send_keys(password)
         self.click(self.loc.LOGIN_BUTTON)
-        self.wait.until(EC.url_to_be(Data.BASE_URL))
+        self.wait.until(EC.url_to_be(Urls.BASE_URL))

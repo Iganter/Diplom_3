@@ -6,26 +6,26 @@
     "children" : [ {
       "name" : "test_ingredient_counter",
       "children" : [ {
-        "name" : "test_ingredient_counter_increments[chrome]",
-        "uid" : "cfbb6ce8b89e4ac",
+        "name" : "Увеличение счётчика ингредиента при добавлении в корзину",
+        "uid" : "711795dd0a94e60",
         "parentUid" : "626528b52eac7744327c7b511cbdf17f",
         "status" : "passed",
         "time" : {
-          "start" : 1750880382898,
-          "stop" : 1750880383068,
-          "duration" : 170
+          "start" : 1750946826786,
+          "stop" : 1750946826963,
+          "duration" : 177
         },
         "flaky" : false,
         "parameters" : [ "'chrome'" ]
       }, {
-        "name" : "test_ingredient_counter_increments[firefox]",
-        "uid" : "9a558fdc463bab56",
+        "name" : "Увеличение счётчика ингредиента при добавлении в корзину",
+        "uid" : "4b73e9457bfb5a53",
         "parentUid" : "626528b52eac7744327c7b511cbdf17f",
         "status" : "passed",
         "time" : {
-          "start" : 1750880391249,
-          "stop" : 1750880391917,
-          "duration" : 668
+          "start" : 1750946835570,
+          "stop" : 1750946836234,
+          "duration" : 664
         },
         "flaky" : false,
         "parameters" : [ "'firefox'" ]
@@ -34,26 +34,26 @@
     }, {
       "name" : "test_ingredient_popup",
       "children" : [ {
-        "name" : "test_ingredient_popup_open_close[chrome]",
-        "uid" : "74e094bccf9427fd",
+        "name" : "Открытие и закрытие попапа с деталями ингредиента",
+        "uid" : "cc4fb6d7f7f0b61a",
         "parentUid" : "d88835d873f5aa1fdd443252b813b1b2",
         "status" : "passed",
         "time" : {
-          "start" : 1750880400246,
-          "stop" : 1750880400405,
-          "duration" : 159
+          "start" : 1750946843752,
+          "stop" : 1750946843903,
+          "duration" : 151
         },
         "flaky" : false,
         "parameters" : [ "'chrome'" ]
       }, {
-        "name" : "test_ingredient_popup_open_close[firefox]",
-        "uid" : "cc855d83c1f0be0e",
+        "name" : "Открытие и закрытие попапа с деталями ингредиента",
+        "uid" : "447c7702a69cf2c2",
         "parentUid" : "d88835d873f5aa1fdd443252b813b1b2",
         "status" : "passed",
         "time" : {
-          "start" : 1750880408581,
-          "stop" : 1750880409592,
-          "duration" : 1011
+          "start" : 1750946852538,
+          "stop" : 1750946853535,
+          "duration" : 997
         },
         "flaky" : false,
         "parameters" : [ "'firefox'" ]
@@ -62,26 +62,26 @@
     }, {
       "name" : "test_navigation",
       "children" : [ {
-        "name" : "test_navigation_constructor_and_feed[chrome]",
-        "uid" : "3600438de77d2375",
+        "name" : "Навигация между Конструктором и Лентой заказов",
+        "uid" : "14b6e2cef1da94e6",
         "parentUid" : "7a1bcddc3f018d2a3c9826a8cb79975e",
         "status" : "passed",
         "time" : {
-          "start" : 1750880417192,
-          "stop" : 1750880417334,
+          "start" : 1750946862512,
+          "stop" : 1750946862654,
           "duration" : 142
         },
         "flaky" : false,
         "parameters" : [ "'chrome'" ]
       }, {
-        "name" : "test_navigation_constructor_and_feed[firefox]",
-        "uid" : "17bbe625613af98f",
+        "name" : "Навигация между Конструктором и Лентой заказов",
+        "uid" : "10dd5ee249e5e4b1",
         "parentUid" : "7a1bcddc3f018d2a3c9826a8cb79975e",
         "status" : "passed",
         "time" : {
-          "start" : 1750880426506,
-          "stop" : 1750880427467,
-          "duration" : 961
+          "start" : 1750946871753,
+          "stop" : 1750946872715,
+          "duration" : 962
         },
         "flaky" : false,
         "parameters" : [ "'firefox'" ]
@@ -90,26 +90,26 @@
     }, {
       "name" : "test_orders_feed",
       "children" : [ {
-        "name" : "test_orders_counters_and_in_progress[chrome]",
-        "uid" : "8b089a55777f8543",
+        "name" : "Создание заказа: счётчики и раздел «В работе»",
+        "uid" : "a99f01b87f7839f8",
         "parentUid" : "2328aeaf292383c744ed3b805f559d90",
-        "status" : "failed",
+        "status" : "passed",
         "time" : {
-          "start" : 1750880434826,
-          "stop" : 1750880441668,
-          "duration" : 6842
+          "start" : 1750946880434,
+          "stop" : 1750946887724,
+          "duration" : 7290
         },
         "flaky" : false,
         "parameters" : [ "'chrome'" ]
       }, {
-        "name" : "test_orders_counters_and_in_progress[firefox]",
-        "uid" : "1b328ad64607d113",
+        "name" : "Создание заказа: счётчики и раздел «В работе»",
+        "uid" : "641708b6df10c4e6",
         "parentUid" : "2328aeaf292383c744ed3b805f559d90",
         "status" : "passed",
         "time" : {
-          "start" : 1750880450919,
-          "stop" : 1750880458253,
-          "duration" : 7334
+          "start" : 1750946896742,
+          "stop" : 1750946904075,
+          "duration" : 7333
         },
         "flaky" : false,
         "parameters" : [ "'firefox'" ]
