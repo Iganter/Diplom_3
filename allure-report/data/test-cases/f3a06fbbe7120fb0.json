@@ -1,45 +1,60 @@
 {
-  "uid" : "4b73e9457bfb5a53",
-  "name" : "Увеличение счётчика ингредиента при добавлении в корзину",
-  "fullName" : "tests.test_ingredient_counter.TestIngredientCounter#test_ingredient_counter_increments",
-  "historyId" : "4d83563a41255bbb628536f9af799381",
+  "uid" : "f3a06fbbe7120fb0",
+  "name" : "Навигация между Конструктором и Лентой заказов",
+  "fullName" : "tests.test_navigation.TestNavigation#test_navigation_constructor_and_feed",
+  "historyId" : "f1d664635cf27501537a0bc8a7c6b21c",
   "time" : {
-    "start" : 1750946835570,
-    "stop" : 1750946836234,
-    "duration" : 664
+    "start" : 1750954483361,
+    "stop" : 1750954484349,
+    "duration" : 988
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1750954435277,
+      "stop" : 1750954435308,
+      "duration" : 31
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
     "name" : "driver",
     "time" : {
-      "start" : 1750946829074,
-      "stop" : 1750946835570,
-      "duration" : 6496
+      "start" : 1750954476925,
+      "stop" : 1750954483361,
+      "duration" : 6436
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Авторизация пользователя через UI",
       "time" : {
-        "start" : 1750946835028,
-        "stop" : 1750946835570,
-        "duration" : 542
+        "start" : 1750954482841,
+        "stop" : 1750954483361,
+        "duration" : 520
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Кликаем по элементу: ('xpath', '//button[text() = \"Войти в аккаунт\"]')",
         "time" : {
-          "start" : 1750946835028,
-          "stop" : 1750946835289,
-          "duration" : 261
+          "start" : 1750954482841,
+          "stop" : 1750954483086,
+          "duration" : 245
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Ждём, пока исчезнет загрузочный спиннер",
           "time" : {
-            "start" : 1750946835028,
-            "stop" : 1750946835043,
-            "duration" : 15
+            "start" : 1750954482841,
+            "stop" : 1750954482854,
+            "duration" : 13
           },
           "status" : "passed",
           "steps" : [ ],
@@ -62,17 +77,17 @@
       }, {
         "name" : "Находим элемент по локатору: ('xpath', \"//h2[text()='Вход']\")",
         "time" : {
-          "start" : 1750946835289,
-          "stop" : 1750946835298,
-          "duration" : 9
+          "start" : 1750954483086,
+          "stop" : 1750954483093,
+          "duration" : 7
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Ждём, пока исчезнет загрузочный спиннер",
           "time" : {
-            "start" : 1750946835289,
-            "stop" : 1750946835294,
-            "duration" : 5
+            "start" : 1750954483086,
+            "stop" : 1750954483090,
+            "duration" : 4
           },
           "status" : "passed",
           "steps" : [ ],
@@ -95,17 +110,17 @@
       }, {
         "name" : "Находим элемент по локатору: ('xpath', \"//label[text()='Email']/following-sibling::input\")",
         "time" : {
-          "start" : 1750946835298,
-          "stop" : 1750946835306,
-          "duration" : 8
+          "start" : 1750954483093,
+          "stop" : 1750954483099,
+          "duration" : 6
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Ждём, пока исчезнет загрузочный спиннер",
           "time" : {
-            "start" : 1750946835298,
-            "stop" : 1750946835302,
-            "duration" : 4
+            "start" : 1750954483093,
+            "stop" : 1750954483095,
+            "duration" : 2
           },
           "status" : "passed",
           "steps" : [ ],
@@ -128,17 +143,17 @@
       }, {
         "name" : "Находим элемент по локатору: ('xpath', \"//label[text()='Пароль']/following-sibling::input\")",
         "time" : {
-          "start" : 1750946835337,
-          "stop" : 1750946835344,
+          "start" : 1750954483128,
+          "stop" : 1750954483135,
           "duration" : 7
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Ждём, пока исчезнет загрузочный спиннер",
           "time" : {
-            "start" : 1750946835337,
-            "stop" : 1750946835340,
-            "duration" : 3
+            "start" : 1750954483128,
+            "stop" : 1750954483132,
+            "duration" : 4
           },
           "status" : "passed",
           "steps" : [ ],
@@ -161,17 +176,17 @@
       }, {
         "name" : "Кликаем по элементу: ('xpath', \"//button[text()='Войти']\")",
         "time" : {
-          "start" : 1750946835351,
-          "stop" : 1750946835569,
+          "start" : 1750954483142,
+          "stop" : 1750954483360,
           "duration" : 218
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Ждём, пока исчезнет загрузочный спиннер",
           "time" : {
-            "start" : 1750946835351,
-            "stop" : 1750946835355,
-            "duration" : 4
+            "start" : 1750954483142,
+            "stop" : 1750954483145,
+            "duration" : 3
           },
           "status" : "passed",
           "steps" : [ ],
@@ -211,46 +226,31 @@
     "shouldDisplayMessage" : false,
     "stepsCount" : 11,
     "hasContent" : true
-  }, {
-    "name" : "_session_faker",
-    "time" : {
-      "start" : 1750946823506,
-      "stop" : 1750946823539,
-      "duration" : 33
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Получаем значение счётчика ингредиента #0",
+      "name" : "Переход на Конструктор",
       "time" : {
-        "start" : 1750946835570,
-        "stop" : 1750946836132,
-        "duration" : 562
+        "start" : 1750954483361,
+        "stop" : 1750954484093,
+        "duration" : 732
       },
       "status" : "passed",
       "steps" : [ {
-        "name" : "Находим все элементы по локатору: ('xpath', \"//*[contains(@class,'counter_counter__num')]\")",
+        "name" : "Кликаем по элементу: ('xpath', \"//nav//a[@href='/' and .//p[text()='Конструктор']]\")",
         "time" : {
-          "start" : 1750946835570,
-          "stop" : 1750946836129,
-          "duration" : 559
+          "start" : 1750954483361,
+          "stop" : 1750954484093,
+          "duration" : 732
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Ждём, пока исчезнет загрузочный спиннер",
           "time" : {
-            "start" : 1750946835570,
-            "stop" : 1750946836085,
-            "duration" : 515
+            "start" : 1750954483361,
+            "stop" : 1750954483877,
+            "duration" : 516
           },
           "status" : "passed",
           "steps" : [ ],
@@ -264,7 +264,7 @@
         "attachments" : [ ],
         "parameters" : [ {
           "name" : "locator",
-          "value" : "('xpath', \"//*[contains(@class,'counter_counter__num')]\")"
+          "value" : "('xpath', \"//nav//a[@href='/' and .//p[text()='Конструктор']]\")"
         } ],
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
@@ -272,36 +272,33 @@
         "hasContent" : true
       } ],
       "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "idx",
-        "value" : "0"
-      } ],
+      "parameters" : [ ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
       "stepsCount" : 2,
       "hasContent" : true
     }, {
-      "name" : "Добавляем ингредиент #0 в корзину",
+      "name" : "Получаем текст активного таба",
       "time" : {
-        "start" : 1750946836132,
-        "stop" : 1750946836190,
-        "duration" : 58
+        "start" : 1750954484093,
+        "stop" : 1750954484114,
+        "duration" : 21
       },
       "status" : "passed",
       "steps" : [ {
-        "name" : "Находим все элементы по локатору: ('xpath', \"//a[contains(@class,'BurgerIngredient_ingredient')]\")",
+        "name" : "Получаем текст элемента: ('css selector', \"a[aria-current='page'] p\")",
         "time" : {
-          "start" : 1750946836132,
-          "stop" : 1750946836177,
-          "duration" : 45
+          "start" : 1750954484093,
+          "stop" : 1750954484114,
+          "duration" : 21
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Ждём, пока исчезнет загрузочный спиннер",
           "time" : {
-            "start" : 1750946836132,
-            "stop" : 1750946836136,
-            "duration" : 4
+            "start" : 1750954484093,
+            "stop" : 1750954484099,
+            "duration" : 6
           },
           "status" : "passed",
           "steps" : [ ],
@@ -311,29 +308,77 @@
           "shouldDisplayMessage" : false,
           "stepsCount" : 0,
           "hasContent" : false
+        }, {
+          "name" : "Находим элемент по локатору: ('css selector', \"a[aria-current='page'] p\")",
+          "time" : {
+            "start" : 1750954484100,
+            "stop" : 1750954484110,
+            "duration" : 10
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ждём, пока исчезнет загрузочный спиннер",
+            "time" : {
+              "start" : 1750954484100,
+              "stop" : 1750954484105,
+              "duration" : 5
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('css selector', \"a[aria-current='page'] p\")"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 1,
+          "hasContent" : true
         } ],
         "attachments" : [ ],
         "parameters" : [ {
           "name" : "locator",
-          "value" : "('xpath', \"//a[contains(@class,'BurgerIngredient_ingredient')]\")"
+          "value" : "('css selector', \"a[aria-current='page'] p\")"
         } ],
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "stepsCount" : 1,
+        "stepsCount" : 3,
         "hasContent" : true
-      }, {
-        "name" : "Находим элемент по локатору: ('xpath', \"//section[contains(@class,'BurgerConstructor_basket')]\")",
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    }, {
+      "name" : "Переход на Ленту заказов",
+      "time" : {
+        "start" : 1750954484114,
+        "stop" : 1750954484334,
+        "duration" : 220
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Кликаем по элементу: ('xpath', \"//nav//a[@href='/feed' and .//p[text()='Лента Заказов']]\")",
         "time" : {
-          "start" : 1750946836178,
-          "stop" : 1750946836186,
-          "duration" : 8
+          "start" : 1750954484114,
+          "stop" : 1750954484334,
+          "duration" : 220
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Ждём, пока исчезнет загрузочный спиннер",
           "time" : {
-            "start" : 1750946836178,
-            "stop" : 1750946836183,
+            "start" : 1750954484114,
+            "stop" : 1750954484119,
             "duration" : 5
           },
           "status" : "passed",
@@ -348,7 +393,7 @@
         "attachments" : [ ],
         "parameters" : [ {
           "name" : "locator",
-          "value" : "('xpath', \"//section[contains(@class,'BurgerConstructor_basket')]\")"
+          "value" : "('xpath', \"//nav//a[@href='/feed' and .//p[text()='Лента Заказов']]\")"
         } ],
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
@@ -356,35 +401,32 @@
         "hasContent" : true
       } ],
       "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "idx",
-        "value" : "0"
-      } ],
+      "parameters" : [ ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 4,
+      "stepsCount" : 2,
       "hasContent" : true
     }, {
-      "name" : "Получаем значение счётчика ингредиента #0",
+      "name" : "Получаем текст активного таба",
       "time" : {
-        "start" : 1750946836190,
-        "stop" : 1750946836234,
-        "duration" : 44
+        "start" : 1750954484334,
+        "stop" : 1750954484349,
+        "duration" : 15
       },
       "status" : "passed",
       "steps" : [ {
-        "name" : "Находим все элементы по локатору: ('xpath', \"//*[contains(@class,'counter_counter__num')]\")",
+        "name" : "Получаем текст элемента: ('css selector', \"a[aria-current='page'] p\")",
         "time" : {
-          "start" : 1750946836190,
-          "stop" : 1750946836232,
-          "duration" : 42
+          "start" : 1750954484334,
+          "stop" : 1750954484349,
+          "duration" : 15
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Ждём, пока исчезнет загрузочный спиннер",
           "time" : {
-            "start" : 1750946836190,
-            "stop" : 1750946836194,
+            "start" : 1750954484334,
+            "stop" : 1750954484338,
             "duration" : 4
           },
           "status" : "passed",
@@ -395,40 +437,70 @@
           "shouldDisplayMessage" : false,
           "stepsCount" : 0,
           "hasContent" : false
+        }, {
+          "name" : "Находим элемент по локатору: ('css selector', \"a[aria-current='page'] p\")",
+          "time" : {
+            "start" : 1750954484338,
+            "stop" : 1750954484345,
+            "duration" : 7
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ждём, пока исчезнет загрузочный спиннер",
+            "time" : {
+              "start" : 1750954484338,
+              "stop" : 1750954484341,
+              "duration" : 3
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('css selector', \"a[aria-current='page'] p\")"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 1,
+          "hasContent" : true
         } ],
         "attachments" : [ ],
         "parameters" : [ {
           "name" : "locator",
-          "value" : "('xpath', \"//*[contains(@class,'counter_counter__num')]\")"
+          "value" : "('css selector', \"a[aria-current='page'] p\")"
         } ],
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "stepsCount" : 1,
+        "stepsCount" : 3,
         "hasContent" : true
       } ],
       "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "idx",
-        "value" : "0"
-      } ],
+      "parameters" : [ ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 2,
+      "stepsCount" : 4,
       "hasContent" : true
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 11,
+    "stepsCount" : 16,
     "hasContent" : true
   },
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1750946836235,
-      "stop" : 1750946840749,
-      "duration" : 4514
+      "start" : 1750954484349,
+      "stop" : 1750954488851,
+      "duration" : 4502
     },
     "status" : "passed",
     "steps" : [ ],
@@ -444,16 +516,16 @@
     "value" : "tests"
   }, {
     "name" : "suite",
-    "value" : "test_ingredient_counter"
+    "value" : "test_navigation"
   }, {
     "name" : "subSuite",
-    "value" : "TestIngredientCounter"
+    "value" : "TestNavigation"
   }, {
     "name" : "host",
     "value" : "DESKTOP-47CL42P"
   }, {
     "name" : "thread",
-    "value" : "23356-MainThread"
+    "value" : "15628-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -462,7 +534,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.test_ingredient_counter"
+    "value" : "tests.test_navigation"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -480,6 +552,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "4b73e9457bfb5a53.json",
+  "source" : "f3a06fbbe7120fb0.json",
   "parameterValues" : [ "'firefox'" ]
 }

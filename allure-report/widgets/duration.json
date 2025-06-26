@@ -1,80 +1,80 @@
 [ {
-  "uid" : "641708b6df10c4e6",
-  "name" : "Создание заказа: счётчики и раздел «В работе»",
-  "time" : {
-    "start" : 1750946896742,
-    "stop" : 1750946904075,
-    "duration" : 7333
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a99f01b87f7839f8",
-  "name" : "Создание заказа: счётчики и раздел «В работе»",
-  "time" : {
-    "start" : 1750946880434,
-    "stop" : 1750946887724,
-    "duration" : 7290
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "14b6e2cef1da94e6",
-  "name" : "Навигация между Конструктором и Лентой заказов",
-  "time" : {
-    "start" : 1750946862512,
-    "stop" : 1750946862654,
-    "duration" : 142
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "711795dd0a94e60",
+  "uid" : "adecc086329791f0",
   "name" : "Увеличение счётчика ингредиента при добавлении в корзину",
   "time" : {
-    "start" : 1750946826786,
-    "stop" : 1750946826963,
-    "duration" : 177
+    "start" : 1750954447851,
+    "stop" : 1750954448522,
+    "duration" : 671
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "447c7702a69cf2c2",
+  "uid" : "616e1bb15526dce1",
   "name" : "Открытие и закрытие попапа с деталями ингредиента",
   "time" : {
-    "start" : 1750946852538,
-    "stop" : 1750946853535,
-    "duration" : 997
+    "start" : 1750954465069,
+    "stop" : 1750954466077,
+    "duration" : 1008
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "cc4fb6d7f7f0b61a",
+  "uid" : "7e83178835e1bd07",
+  "name" : "Создание заказа: счётчики и раздел «В работе»",
+  "time" : {
+    "start" : 1750954507932,
+    "stop" : 1750954514263,
+    "duration" : 6331
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "751531077b4415f",
   "name" : "Открытие и закрытие попапа с деталями ингредиента",
   "time" : {
-    "start" : 1750946843752,
-    "stop" : 1750946843903,
-    "duration" : 151
+    "start" : 1750954456347,
+    "stop" : 1750954456500,
+    "duration" : 153
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "10dd5ee249e5e4b1",
-  "name" : "Навигация между Конструктором и Лентой заказов",
+  "uid" : "eb11c7946958b635",
+  "name" : "Создание заказа: счётчики и раздел «В работе»",
   "time" : {
-    "start" : 1750946871753,
-    "stop" : 1750946872715,
-    "duration" : 962
+    "start" : 1750954492065,
+    "stop" : 1750954499489,
+    "duration" : 7424
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4b73e9457bfb5a53",
+  "uid" : "bcdd03ec70cba11",
   "name" : "Увеличение счётчика ингредиента при добавлении в корзину",
   "time" : {
-    "start" : 1750946835570,
-    "stop" : 1750946836234,
-    "duration" : 664
+    "start" : 1750954439059,
+    "stop" : 1750954439224,
+    "duration" : 165
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f6f04e4e97ca8132",
+  "name" : "Навигация между Конструктором и Лентой заказов",
+  "time" : {
+    "start" : 1750954474196,
+    "stop" : 1750954474858,
+    "duration" : 662
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f3a06fbbe7120fb0",
+  "name" : "Навигация между Конструктором и Лентой заказов",
+  "time" : {
+    "start" : 1750954483361,
+    "stop" : 1750954484349,
+    "duration" : 988
   },
   "status" : "passed",
   "severity" : "normal"

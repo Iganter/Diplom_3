@@ -1,45 +1,60 @@
 {
-  "uid" : "711795dd0a94e60",
-  "name" : "Увеличение счётчика ингредиента при добавлении в корзину",
-  "fullName" : "tests.test_ingredient_counter.TestIngredientCounter#test_ingredient_counter_increments",
-  "historyId" : "7c055ecbc34a81c1b5a911a79aa3a887",
+  "uid" : "751531077b4415f",
+  "name" : "Открытие и закрытие попапа с деталями ингредиента",
+  "fullName" : "tests.test_ingredient_popup.TestIngredientPopup#test_ingredient_popup_open_close",
+  "historyId" : "13500cc65279a9f3f4d16d8a8b4811a6",
   "time" : {
-    "start" : 1750946826786,
-    "stop" : 1750946826963,
-    "duration" : 177
+    "start" : 1750954456347,
+    "stop" : 1750954456500,
+    "duration" : 153
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1750954435277,
+      "stop" : 1750954435308,
+      "duration" : 31
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
     "name" : "driver",
     "time" : {
-      "start" : 1750946823539,
-      "stop" : 1750946826785,
-      "duration" : 3246
+      "start" : 1750954453041,
+      "stop" : 1750954456346,
+      "duration" : 3305
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Авторизация пользователя через UI",
       "time" : {
-        "start" : 1750946826092,
-        "stop" : 1750946826785,
-        "duration" : 693
+        "start" : 1750954455657,
+        "stop" : 1750954456346,
+        "duration" : 689
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Кликаем по элементу: ('xpath', '//button[text() = \"Войти в аккаунт\"]')",
         "time" : {
-          "start" : 1750946826092,
-          "stop" : 1750946826145,
-          "duration" : 53
+          "start" : 1750954455657,
+          "stop" : 1750954455707,
+          "duration" : 50
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Ждём, пока исчезнет загрузочный спиннер",
           "time" : {
-            "start" : 1750946826092,
-            "stop" : 1750946826103,
-            "duration" : 11
+            "start" : 1750954455657,
+            "stop" : 1750954455667,
+            "duration" : 10
           },
           "status" : "passed",
           "steps" : [ ],
@@ -62,17 +77,17 @@
       }, {
         "name" : "Находим элемент по локатору: ('xpath', \"//h2[text()='Вход']\")",
         "time" : {
-          "start" : 1750946826145,
-          "stop" : 1750946826158,
-          "duration" : 13
+          "start" : 1750954455708,
+          "stop" : 1750954455719,
+          "duration" : 11
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Ждём, пока исчезнет загрузочный спиннер",
           "time" : {
-            "start" : 1750946826145,
-            "stop" : 1750946826151,
-            "duration" : 6
+            "start" : 1750954455708,
+            "stop" : 1750954455713,
+            "duration" : 5
           },
           "status" : "passed",
           "steps" : [ ],
@@ -95,17 +110,17 @@
       }, {
         "name" : "Находим элемент по локатору: ('xpath', \"//label[text()='Email']/following-sibling::input\")",
         "time" : {
-          "start" : 1750946826158,
-          "stop" : 1750946826170,
-          "duration" : 12
+          "start" : 1750954455720,
+          "stop" : 1750954455731,
+          "duration" : 11
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Ждём, пока исчезнет загрузочный спиннер",
           "time" : {
-            "start" : 1750946826158,
-            "stop" : 1750946826164,
-            "duration" : 6
+            "start" : 1750954455720,
+            "stop" : 1750954455724,
+            "duration" : 4
           },
           "status" : "passed",
           "steps" : [ ],
@@ -128,17 +143,17 @@
       }, {
         "name" : "Находим элемент по локатору: ('xpath', \"//label[text()='Пароль']/following-sibling::input\")",
         "time" : {
-          "start" : 1750946826206,
-          "stop" : 1750946826219,
-          "duration" : 13
+          "start" : 1750954455767,
+          "stop" : 1750954455779,
+          "duration" : 12
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Ждём, пока исчезнет загрузочный спиннер",
           "time" : {
-            "start" : 1750946826206,
-            "stop" : 1750946826212,
-            "duration" : 6
+            "start" : 1750954455767,
+            "stop" : 1750954455772,
+            "duration" : 5
           },
           "status" : "passed",
           "steps" : [ ],
@@ -161,17 +176,17 @@
       }, {
         "name" : "Кликаем по элементу: ('xpath', \"//button[text()='Войти']\")",
         "time" : {
-          "start" : 1750946826236,
-          "stop" : 1750946826276,
-          "duration" : 40
+          "start" : 1750954455797,
+          "stop" : 1750954455838,
+          "duration" : 41
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Ждём, пока исчезнет загрузочный спиннер",
           "time" : {
-            "start" : 1750946826236,
-            "stop" : 1750946826244,
-            "duration" : 8
+            "start" : 1750954455797,
+            "stop" : 1750954455803,
+            "duration" : 6
           },
           "status" : "passed",
           "steps" : [ ],
@@ -211,97 +226,64 @@
     "shouldDisplayMessage" : false,
     "stepsCount" : 11,
     "hasContent" : true
-  }, {
-    "name" : "_session_faker",
-    "time" : {
-      "start" : 1750946823506,
-      "stop" : 1750946823539,
-      "duration" : 33
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Получаем значение счётчика ингредиента #0",
+      "name" : "Проверяем, открыт ли попап",
       "time" : {
-        "start" : 1750946826786,
-        "stop" : 1750946826853,
-        "duration" : 67
+        "start" : 1750954456347,
+        "stop" : 1750954456355,
+        "duration" : 8
       },
       "status" : "passed",
       "steps" : [ {
-        "name" : "Находим все элементы по локатору: ('xpath', \"//*[contains(@class,'counter_counter__num')]\")",
+        "name" : "Проверяем наличие элемента на странице: ('xpath', \"//*[contains(@class,'Modal_modal_opened')]\")",
         "time" : {
-          "start" : 1750946826786,
-          "stop" : 1750946826848,
-          "duration" : 62
+          "start" : 1750954456347,
+          "stop" : 1750954456355,
+          "duration" : 8
         },
         "status" : "passed",
-        "steps" : [ {
-          "name" : "Ждём, пока исчезнет загрузочный спиннер",
-          "time" : {
-            "start" : 1750946826786,
-            "stop" : 1750946826798,
-            "duration" : 12
-          },
-          "status" : "passed",
-          "steps" : [ ],
-          "attachments" : [ ],
-          "parameters" : [ ],
-          "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false,
-          "stepsCount" : 0,
-          "hasContent" : false
-        } ],
+        "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ {
           "name" : "locator",
-          "value" : "('xpath', \"//*[contains(@class,'counter_counter__num')]\")"
+          "value" : "('xpath', \"//*[contains(@class,'Modal_modal_opened')]\")"
         } ],
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "stepsCount" : 1,
+        "stepsCount" : 0,
         "hasContent" : true
       } ],
       "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "idx",
-        "value" : "0"
-      } ],
+      "parameters" : [ ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 2,
+      "stepsCount" : 1,
       "hasContent" : true
     }, {
-      "name" : "Добавляем ингредиент #0 в корзину",
+      "name" : "Открываем попап ингредиента #0",
       "time" : {
-        "start" : 1750946826853,
-        "stop" : 1750946826915,
-        "duration" : 62
+        "start" : 1750954456355,
+        "stop" : 1750954456435,
+        "duration" : 80
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Находим все элементы по локатору: ('xpath', \"//a[contains(@class,'BurgerIngredient_ingredient')]\")",
         "time" : {
-          "start" : 1750946826854,
-          "stop" : 1750946826898,
-          "duration" : 44
+          "start" : 1750954456355,
+          "stop" : 1750954456405,
+          "duration" : 50
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Ждём, пока исчезнет загрузочный спиннер",
           "time" : {
-            "start" : 1750946826854,
-            "stop" : 1750946826859,
-            "duration" : 5
+            "start" : 1750954456355,
+            "stop" : 1750954456363,
+            "duration" : 8
           },
           "status" : "passed",
           "steps" : [ ],
@@ -321,19 +303,151 @@
         "shouldDisplayMessage" : false,
         "stepsCount" : 1,
         "hasContent" : true
-      }, {
-        "name" : "Находим элемент по локатору: ('xpath', \"//section[contains(@class,'BurgerConstructor_basket')]\")",
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "idx",
+        "value" : "0"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Проверяем, открыт ли попап",
+      "time" : {
+        "start" : 1750954456435,
+        "stop" : 1750954456439,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Проверяем наличие элемента на странице: ('xpath', \"//*[contains(@class,'Modal_modal_opened')]\")",
         "time" : {
-          "start" : 1750946826898,
-          "stop" : 1750946826909,
+          "start" : 1750954456435,
+          "stop" : 1750954456439,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('xpath', \"//*[contains(@class,'Modal_modal_opened')]\")"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Получаем название ингредиента в попапе",
+      "time" : {
+        "start" : 1750954456439,
+        "stop" : 1750954456463,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Получаем текст элемента: ('xpath', \"//*[contains(@class,'Modal_modal_opened')]/div/div/p\")",
+        "time" : {
+          "start" : 1750954456439,
+          "stop" : 1750954456463,
+          "duration" : 24
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ждём, пока исчезнет загрузочный спиннер",
+          "time" : {
+            "start" : 1750954456439,
+            "stop" : 1750954456445,
+            "duration" : 6
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Находим элемент по локатору: ('xpath', \"//*[contains(@class,'Modal_modal_opened')]/div/div/p\")",
+          "time" : {
+            "start" : 1750954456445,
+            "stop" : 1750954456459,
+            "duration" : 14
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Ждём, пока исчезнет загрузочный спиннер",
+            "time" : {
+              "start" : 1750954456445,
+              "stop" : 1750954456451,
+              "duration" : 6
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "('xpath', \"//*[contains(@class,'Modal_modal_opened')]/div/div/p\")"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 1,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('xpath', \"//*[contains(@class,'Modal_modal_opened')]/div/div/p\")"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 3,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    }, {
+      "name" : "Закрываем попап ингредиента",
+      "time" : {
+        "start" : 1750954456464,
+        "stop" : 1750954456497,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Находим элемент по локатору: ('xpath', \"//*[contains(@class,'Modal_modal_opened')]//button\")",
+        "time" : {
+          "start" : 1750954456464,
+          "stop" : 1750954456475,
           "duration" : 11
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Ждём, пока исчезнет загрузочный спиннер",
           "time" : {
-            "start" : 1750946826898,
-            "stop" : 1750946826903,
+            "start" : 1750954456464,
+            "stop" : 1750954456469,
             "duration" : 5
           },
           "status" : "passed",
@@ -348,7 +462,7 @@
         "attachments" : [ ],
         "parameters" : [ {
           "name" : "locator",
-          "value" : "('xpath', \"//section[contains(@class,'BurgerConstructor_basket')]\")"
+          "value" : "('xpath', \"//*[contains(@class,'Modal_modal_opened')]//button\")"
         } ],
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
@@ -356,85 +470,64 @@
         "hasContent" : true
       } ],
       "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "idx",
-        "value" : "0"
-      } ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 4,
-      "hasContent" : true
-    }, {
-      "name" : "Получаем значение счётчика ингредиента #0",
-      "time" : {
-        "start" : 1750946826915,
-        "stop" : 1750946826963,
-        "duration" : 48
-      },
-      "status" : "passed",
-      "steps" : [ {
-        "name" : "Находим все элементы по локатору: ('xpath', \"//*[contains(@class,'counter_counter__num')]\")",
-        "time" : {
-          "start" : 1750946826915,
-          "stop" : 1750946826960,
-          "duration" : 45
-        },
-        "status" : "passed",
-        "steps" : [ {
-          "name" : "Ждём, пока исчезнет загрузочный спиннер",
-          "time" : {
-            "start" : 1750946826915,
-            "stop" : 1750946826923,
-            "duration" : 8
-          },
-          "status" : "passed",
-          "steps" : [ ],
-          "attachments" : [ ],
-          "parameters" : [ ],
-          "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false,
-          "stepsCount" : 0,
-          "hasContent" : false
-        } ],
-        "attachments" : [ ],
-        "parameters" : [ {
-          "name" : "locator",
-          "value" : "('xpath', \"//*[contains(@class,'counter_counter__num')]\")"
-        } ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "stepsCount" : 1,
-        "hasContent" : true
-      } ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "idx",
-        "value" : "0"
-      } ],
+      "parameters" : [ ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
       "stepsCount" : 2,
       "hasContent" : true
+    }, {
+      "name" : "Проверяем, открыт ли попап",
+      "time" : {
+        "start" : 1750954456497,
+        "stop" : 1750954456500,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Проверяем наличие элемента на странице: ('xpath', \"//*[contains(@class,'Modal_modal_opened')]\")",
+        "time" : {
+          "start" : 1750954456497,
+          "stop" : 1750954456500,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "('xpath', \"//*[contains(@class,'Modal_modal_opened')]\")"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "415bd41b88187ff9",
+      "uid" : "b943a5cd10588324",
       "name" : "log",
-      "source" : "415bd41b88187ff9.txt",
+      "source" : "b943a5cd10588324.txt",
       "type" : "text/plain",
       "size" : 395
     } ],
     "parameters" : [ ],
     "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 11,
+    "stepsCount" : 17,
     "hasContent" : true
   },
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1750946826963,
-      "stop" : 1750946829062,
-      "duration" : 2099
+      "start" : 1750954456500,
+      "stop" : 1750954458561,
+      "duration" : 2061
     },
     "status" : "passed",
     "steps" : [ ],
@@ -450,16 +543,16 @@
     "value" : "tests"
   }, {
     "name" : "suite",
-    "value" : "test_ingredient_counter"
+    "value" : "test_ingredient_popup"
   }, {
     "name" : "subSuite",
-    "value" : "TestIngredientCounter"
+    "value" : "TestIngredientPopup"
   }, {
     "name" : "host",
     "value" : "DESKTOP-47CL42P"
   }, {
     "name" : "thread",
-    "value" : "23356-MainThread"
+    "value" : "15628-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -468,7 +561,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.test_ingredient_counter"
+    "value" : "tests.test_ingredient_popup"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -486,6 +579,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "711795dd0a94e60.json",
+  "source" : "751531077b4415f.json",
   "parameterValues" : [ "'chrome'" ]
 }

@@ -2,7 +2,8 @@ import pytest
 from selenium import webdriver
 
 from pages.login_page import LoginPage
-from data import Data, Urls
+from data import Data
+from urls import Urls
 
 
 @pytest.fixture(params=["chrome", "firefox"])

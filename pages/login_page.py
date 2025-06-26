@@ -3,7 +3,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from pages.base_page import BasePage
 from locators.login_page_locators import LoginPageLocators
 from locators.home_page_locators import HomePageLocators
-from data import Urls
+from urls import Urls
 
 
 class LoginPage(BasePage):
