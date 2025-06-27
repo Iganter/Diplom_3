@@ -1,0 +1,121 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "tests",
+    "children" : [ {
+      "name" : "test_ingredient_counter",
+      "children" : [ {
+        "name" : "Увеличение счётчика ингредиента при добавлении в корзину",
+        "uid" : "bcdd03ec70cba11",
+        "parentUid" : "626528b52eac7744327c7b511cbdf17f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1750954439059,
+          "stop" : 1750954439224,
+          "duration" : 165
+        },
+        "flaky" : false,
+        "parameters" : [ "'chrome'" ]
+      }, {
+        "name" : "Увеличение счётчика ингредиента при добавлении в корзину",
+        "uid" : "adecc086329791f0",
+        "parentUid" : "626528b52eac7744327c7b511cbdf17f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1750954447851,
+          "stop" : 1750954448522,
+          "duration" : 671
+        },
+        "flaky" : false,
+        "parameters" : [ "'firefox'" ]
+      } ],
+      "uid" : "626528b52eac7744327c7b511cbdf17f"
+    }, {
+      "name" : "test_ingredient_popup",
+      "children" : [ {
+        "name" : "Открытие и закрытие попапа с деталями ингредиента",
+        "uid" : "751531077b4415f",
+        "parentUid" : "d88835d873f5aa1fdd443252b813b1b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1750954456347,
+          "stop" : 1750954456500,
+          "duration" : 153
+        },
+        "flaky" : false,
+        "parameters" : [ "'chrome'" ]
+      }, {
+        "name" : "Открытие и закрытие попапа с деталями ингредиента",
+        "uid" : "616e1bb15526dce1",
+        "parentUid" : "d88835d873f5aa1fdd443252b813b1b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1750954465069,
+          "stop" : 1750954466077,
+          "duration" : 1008
+        },
+        "flaky" : false,
+        "parameters" : [ "'firefox'" ]
+      } ],
+      "uid" : "d88835d873f5aa1fdd443252b813b1b2"
+    }, {
+      "name" : "test_navigation",
+      "children" : [ {
+        "name" : "Навигация между Конструктором и Лентой заказов",
+        "uid" : "f6f04e4e97ca8132",
+        "parentUid" : "7a1bcddc3f018d2a3c9826a8cb79975e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1750954474196,
+          "stop" : 1750954474858,
+          "duration" : 662
+        },
+        "flaky" : false,
+        "parameters" : [ "'chrome'" ]
+      }, {
+        "name" : "Навигация между Конструктором и Лентой заказов",
+        "uid" : "f3a06fbbe7120fb0",
+        "parentUid" : "7a1bcddc3f018d2a3c9826a8cb79975e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1750954483361,
+          "stop" : 1750954484349,
+          "duration" : 988
+        },
+        "flaky" : false,
+        "parameters" : [ "'firefox'" ]
+      } ],
+      "uid" : "7a1bcddc3f018d2a3c9826a8cb79975e"
+    }, {
+      "name" : "test_orders_feed",
+      "children" : [ {
+        "name" : "Создание заказа: счётчики и раздел «В работе»",
+        "uid" : "eb11c7946958b635",
+        "parentUid" : "2328aeaf292383c744ed3b805f559d90",
+        "status" : "passed",
+        "time" : {
+          "start" : 1750954492065,
+          "stop" : 1750954499489,
+          "duration" : 7424
+        },
+        "flaky" : false,
+        "parameters" : [ "'chrome'" ]
+      }, {
+        "name" : "Создание заказа: счётчики и раздел «В работе»",
+        "uid" : "7e83178835e1bd07",
+        "parentUid" : "2328aeaf292383c744ed3b805f559d90",
+        "status" : "failed",
+        "time" : {
+          "start" : 1750954507932,
+          "stop" : 1750954514263,
+          "duration" : 6331
+        },
+        "flaky" : false,
+        "parameters" : [ "'firefox'" ]
+      } ],
+      "uid" : "2328aeaf292383c744ed3b805f559d90"
+    } ],
+    "uid" : "bf49149a3821e34f7608bb6885d52868"
+  } ],
+  "name" : "packages"
+}
