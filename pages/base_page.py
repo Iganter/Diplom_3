@@ -33,6 +33,15 @@ class BasePage:
         element.click()
         return element
 
+    @allure.step("Кликаем по элементу с индексом {index}: {locator}")
+    def click_nth(self, locator, index):
+        self.wait_loading()
+        elements = self.wait.until(EC.visibility_of_all_elements_located(locator))
+        element = elements[index]
+        self.driver.execute_script("arguments[0].scrollIntoView(true);", element)
+        element.click()
+        return element
+
     @allure.step("Получаем текст элемента: {locator}")
     def get_text(self, locator):
         self.wait_loading()

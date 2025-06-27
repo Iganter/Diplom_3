@@ -11,10 +11,7 @@ class HomePage(BasePage):
 
     @allure.step('Открываем попап ингредиента #{idx}')
     def click_ingredient(self, idx=0):
-        tiles = self.finds(self.loc.INGREDIENT_TILES)
-        target = tiles[idx]
-        self.driver.execute_script("arguments[0].scrollIntoView(true);", target)
-        target.click()
+        self.click_nth(self.loc.INGREDIENT_TILES, idx)
 
     @allure.step('Проверяем, открыт ли попап')
     def is_popup_open(self):
@@ -26,9 +23,8 @@ class HomePage(BasePage):
 
     @allure.step('Закрываем попап ингредиента')
     def close_popup(self):
-        btn = self.find(self.loc.POPUP_CLOSE_BUTTON)
-        self.driver.execute_script("arguments[0].scrollIntoView(true);", btn)
-        btn.click()
+        # теперь простой click по локатору
+        self.click(self.loc.POPUP_CLOSE_BUTTON)
 
     @allure.step('Добавляем ингредиент #{idx} в корзину')
     def add_ingredient(self, idx=0):
